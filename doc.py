@@ -133,9 +133,9 @@ def extract_info_from_invoice(pdf_path):
           
         #getting yt videos related to this 
         # YouTube Data API key.
-        #my key AIzaSyCAdrtgNARFEl0oDZoKCfC7lKmBv409t6w
-        #my 2nd key AIzaSyB5fvApLJKnnNgFdz5Vxae_vTHY-j97Wnc
-        API_KEY = 'AIzaSyB5fvApLJKnnNgFdz5Vxae_vTHY-j97Wnc'
+        #my key AIzaSyCAdrtgNARFEl0oDZoKCfC7lKmBv409t6ww
+        #my 2nd key AIzaSyB5fvApLJKnnNgFdz5Vxae_vTHY-j97Wncc
+        API_KEY = 'AIzaSyB5fvApLJKnnNgFdz5Vxae_vTHY-j97Wncc'
         search_query = request.args.get('q', str(desc))
         max_results = request.args.get('maxResults', 1)
         
